@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    printf("Food items available\n1. Pizza\n2. Burger\n3. Pasta \n4. FrenchFries \n5. Sandwich");
+    int order;
+    scanf("%d",&order);
+    switch(order){
+        case 1:
+        printf("Food item - Pizza \n");
+        printf("\n Price - Rs 179\n");
+        break;
+        case 2:
+        printf("Food item - Burger \n");
+        printf("\n Price - Rs 150\n");
+        break;
+        case 3:
+        printf("Food item - Pasta \n");
+        printf("\n Price - Rs 160\n");
+        break;
+        case 4:
+        printf("Food item - FrenchFries\n");
+        printf("\n Price - Rs 99\n");
+        break;
+        case 5:
+        printf("Food item - Sandwich \n");
+        printf("\n Price - Rs 80\n");
+        break;
+    }
+    return 0;
+}
