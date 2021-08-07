@@ -9,7 +9,6 @@ int main()
     scanf("%d%d", &a, &b);
     lcm = find_lcm(a,b);
     printf("\n\n LCM of %d and %d is: %d\n\n", a, b, lcm);
-    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
 }
 
